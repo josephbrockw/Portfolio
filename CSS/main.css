@@ -1,0 +1,146 @@
+body {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1em;
+}
+
+/*----------------------Navigation-----------------------*/
+
+.navigation {
+  background-color: rgb(64, 98, 141);
+  height: 32px;
+}
+
+.navigation ul {
+  text-align: center;
+}
+
+.navigation ul li {
+  display: inline-block;
+  padding: .5em;
+  margin: .5em .75em 0;
+  color: white;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+/*----------------------Masthead-----------------------*/
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url("https://lucian.uchicago.edu/blogs/bric/files/2011/05/IMG_7254.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em rgb(64, 98, 141);
+  border-bottom: solid 3px rgb(64, 98, 141);
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-size: 6em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: -0.05em;
+  color: rgb(167, 117, 23);
+  text-shadow: 3px 2px 1px #000;
+  margin-bottom: 0;
+}
+
+#title {
+  margin-bottom: 3em;
+}
+
+/*----------------------Body-----------------------*/
+
+h1 {
+  font-weight: bold;
+  font-size: 1.75em;
+  margin: .75em 0;
+}
+
+.location-section, 
+.intro-section, 
+.question-section,
+.content-footer {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.intro-section > p,
+.location-section > p,
+.questions-section > p {
+  font-weight: 300;
+  letter-spacing: 0.05;
+}
+
+.question-section h2 {
+  color: rgb(167, 117, 23);
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  margin-top: .3em;
+  margin-bottom: .3em;
+}
+
+/*----------------------Footer-----------------------*/
+
+.content-footer {
+  background-color: rgb(64, 98, 141);
+  text-align: center;
+  padding: 1em 0;
+}
+
+
+.social > li {
+  display: inline-block;
+  padding: .5em 1em;
+}
+
+.content-footer > p, a {
+  color: white;
+  text-decoration: none;
+}
+
+.content-footer > a:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 650px) {
+  h1, .question, p {
+    width: 90%;
+    margin: 0 5%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 1.5em 0;
+  }
+  .social > li {
+    padding: .5em;
+  }
+  #title {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .navigation ul li {
+    margin-left: .25em;
+    margin-right: .25em;
+  }
+}
