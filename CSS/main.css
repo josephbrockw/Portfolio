@@ -74,7 +74,10 @@ h1 {
 .location-section, 
 .intro-section, 
 .question-section,
-.content-footer {
+.content-footer,
+.experience,
+.education,
+.volunteer {
   max-width: 38em;
   margin-left: auto;
   margin-right: auto;
