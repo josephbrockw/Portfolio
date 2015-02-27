@@ -140,7 +140,8 @@ h1 {
 
 @media only screen and (max-width: 420px) {
   .navigation ul li {
-    margin-left: .25em;
-    margin-right: .25em;
+    margin-left: 0em;
+    margin-right: 0em;
+    font-size: .9em;
   }
 }
