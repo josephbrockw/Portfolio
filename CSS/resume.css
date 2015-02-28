@@ -23,6 +23,10 @@
 
 /*------------------------------Experience------------------------------*/
 
+.experience h2 {
+	margin-top: 1em;
+}
+
 .experience h3 {
 	font-style: italic;
 	margin-bottom: .25em;
@@ -69,4 +73,35 @@ i {
 
 .education h3 {
 	margin-bottom: .2em;
+}
+
+
+
+@media only screen and (max-width: 650px) {
+	.experience,
+	.education,
+	.volunteer {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+	}
+	p {
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.experience h2 {
+		margin-top: .75em;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.grad {
+		width: 100%;
+		font-style: italic;
+	}
+	#award {
+		display: none;
+	}
 }
