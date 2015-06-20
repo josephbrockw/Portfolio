@@ -41,7 +41,7 @@ body {
 }
 
 .masthead-intro {
-  margin-bottom: 0.1em;
+  margin-bottom: 1em;
   font-family: "Gentium Book Basic", Georgia, sans-serif;
   font-size: 1.5em;
   color: white;
@@ -64,6 +64,42 @@ body {
 }
 
 /*----------------------Body-----------------------*/
+/*----------------------Tabs-----------------------*/
+.quickinfo {
+  width: 100%;
+  margin: 0 20%;
+}
+.infotab {
+  width: 20%;
+  height: 2em;
+  background-color: rgba(167, 117, 23, 1);
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-align: center;
+}
+.infotab:hover {
+  background-color: rgb(39, 4, 0);
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.infotab h2 {
+  margin: .5em;
+}
+
+.info-section {
+  max-width: 38em;
+  margin: 0 auto;
+}
+
+.info-section h3 {
+  font-weight: 700;
+  text-align: center;
+  margin: 1em;
+  font-size: 1.5em
+}
 
 h1 {
   font-weight: bold;

@@ -12,3 +12,11 @@
 h1 {
   text-align: center;
 }
+
+.description p {
+	margin-bottom: 2.5em;
+}
+
+.assign {
+	font-weight: 700;
+}
