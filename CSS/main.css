@@ -6,8 +6,8 @@ body {
 /*----------------------Navigation-----------------------*/
 
 .navigation {
-  background-color: rgb(64, 98, 141);
-  height: 32px;
+  background-color: black;
+  height: auto;
 }
 
 .navigation ul {
@@ -33,12 +33,11 @@ body {
 
 .masthead {
   padding: 6em 0;
-  background-color: rgb(39, 4, 0);
+  background-color: black;
   background-image: url("https://lucian.uchicago.edu/blogs/bric/files/2011/05/IMG_7254.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  border-top: solid 1em rgb(64, 98, 141);
-  border-bottom: solid 3px rgb(64, 98, 141);
+  border-bottom: solid 3px black;
 }
 
 .masthead-intro {
@@ -66,40 +65,41 @@ body {
 
 /*----------------------Body-----------------------*/
 /*----------------------Tabs-----------------------*/
-.quickinfo {
-  width: 100%;
-  margin: 0 20%;
+.quickinfo2 {
+  width: 80%;
+  margin: 0 10%;
 }
-.infotab {
-  width: 20%;
-  height: 2em;
-  background-color: rgba(167, 117, 23, 1);
+.infotab2 {
   display: inline-block;
-  padding: 0;
-  margin: 0;
-  border: 0;
+  width:25%;
+  min-width: 10em;
   text-align: center;
+  font-size: 1.2em;
+  background-color: rgba(167, 117, 23, 1);
+  padding: .25em 0;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
 }
-.infotab:hover {
+
+.infotab2:hover {
   background-color: rgb(39, 4, 0);
   color: white;
-  text-decoration: underline;
   cursor: pointer;
-}
-.infotab h2 {
-  margin: .5em;
 }
 
 .infoTabSelect {
-  width: 20%;
-  height: 2em;
-  background-color: rgba(39, 4, 0, 1);
+  background-color: rgb(39, 4, 0);
   color: white;
   display: inline-block;
-  padding: 0;
-  margin: 0;
-  border: 0;
+  width:25%;
+  min-width: 10em;
   text-align: center;
+  font-size: 1.2em;
+  padding: .25em 0;
+  cursor: pointer;
 }
 
 .info-section {
@@ -113,6 +113,9 @@ body {
   margin: 1em;
   font-size: 1.5em
 }
+
+
+
 
 h1 {
   font-weight: bold;
@@ -138,6 +141,12 @@ h1 {
 .questions-section > p {
   font-weight: 300;
   letter-spacing: 0.05;
+}
+
+.info-section h3{
+  color:  rgb(64, 98, 141);
+  font-weight: 600;
+  font-size: 2em;
 }
 
 .question-section h2 {

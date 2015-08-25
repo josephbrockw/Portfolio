@@ -1,11 +1,16 @@
 $(document).ready(function() {
 
-	$('#tabone').click(function() {
+	$('.tabs').click(function() {
 		event.preventDefault();
-		$(this).removeClass('infotab');
+		$('.tabs').removeClass('infoTabSelect');
+		$('.tabs').addClass('infotab2');
+		$(this).removeClass('infotab2');
 		$(this).addClass('infoTabSelect');
 		console.log('success');
 	});
+	
+
+	
 
 	
 });
