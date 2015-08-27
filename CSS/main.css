@@ -50,10 +50,10 @@ body {
 .masthead-heading {
   margin-top: -0.2em;
   font-size: 6em;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Titillium Web", "Open-Sans", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.06em;
   color: rgb(167, 117, 23);
   text-shadow: 3px 2px 1px #000;
   margin-bottom: 0;
@@ -72,7 +72,7 @@ body {
 .infotab2 {
   display: inline-block;
   width:25%;
-  min-width: 10em;
+  /*min-width: 10em;*/
   text-align: center;
   font-size: 1.2em;
   background-color: rgba(167, 117, 23, 1);
@@ -85,13 +85,13 @@ body {
 }
 
 .infotab2:hover {
-  background-color: rgb(39, 4, 0);
+  background-color: rgb(64, 98, 141);
   color: white;
   cursor: pointer;
 }
 
 .infoTabSelect {
-  background-color: rgb(39, 4, 0);
+  background-color: rgb(64, 98, 141);
   color: white;
   display: inline-block;
   width:25%;
@@ -111,7 +111,10 @@ body {
   font-weight: 700;
   text-align: center;
   margin: 1em;
-  font-size: 1.5em
+  font-size: 1.5em;
+  color:  rgb(64, 98, 141);
+  font-weight: 600;
+  font-size: 2em;
 }
 
 
@@ -120,6 +123,7 @@ body {
 h1 {
   font-weight: bold;
   font-size: 1.75em;
+
   margin: .75em 0;
 }
 
@@ -141,13 +145,9 @@ h1 {
 .questions-section > p {
   font-weight: 300;
   letter-spacing: 0.05;
+  color: red;
 }
 
-.info-section h3{
-  color:  rgb(64, 98, 141);
-  font-weight: 600;
-  font-size: 2em;
-}
 
 .question-section h2 {
   color: rgb(167, 117, 23);
