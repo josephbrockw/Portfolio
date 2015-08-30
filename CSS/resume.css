@@ -27,6 +27,10 @@
 	margin-top: 1em;
 }
 
+#secondaryTitle {
+	margin-top: 0;
+}
+
 .experience h3 {
 	font-style: italic;
 	margin-bottom: .25em;

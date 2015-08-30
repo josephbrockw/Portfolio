@@ -10,7 +10,13 @@
 }
 
 h1 {
+	text-align: center;
+}
+
+.description a {
   text-align: center;
+  color: rgb(64, 98, 141);
+  text-decoration: none;
 }
 
 .description p {
