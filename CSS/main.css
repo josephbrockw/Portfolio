@@ -1,7 +1,4 @@
-body {
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 1em;
-}
+
 
 /*----------------------Navigation-----------------------*/
 
@@ -34,7 +31,7 @@ body {
 .masthead {
   padding: 6em 0;
   background-color: black;
-  background-image: url("https://lucian.uchicago.edu/blogs/bric/files/2011/05/IMG_7254.jpg");
+  background-image: url("http://blog.ericbowersphoto.com/wp-content/uploads/2015/11/downtown_kansas_city_skyline_dusk_panorama_chouteau.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: solid 3px black;
@@ -133,8 +130,8 @@ h1 {
   margin: .75em 0;
 }
 
-.location-section, 
-.intro-section, 
+.location-section,
+.intro-section,
 .question-section,
 .content-footer,
 .experience,
@@ -184,8 +181,8 @@ h1 {
   padding: .5em 1em;
 }
 
-.content-footer > p, 
-.content-footer a, 
+.content-footer > p,
+.content-footer a,
 .navigation a {
   color: white;
   text-decoration: none;

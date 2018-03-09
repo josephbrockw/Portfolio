@@ -1,0 +1,17 @@
+nav {
+  background-color: $dark-color;
+  height: auto;
+
+  ul {
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    padding: .5em;
+    margin: .5em .75em 0;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+  }
+}
