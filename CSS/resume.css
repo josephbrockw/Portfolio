@@ -3,7 +3,7 @@
 }*/
 
 .experience > h1,
-.education > h1, 
+.education > h1,
 .volunteer > h1 {
 	color: rgb(167, 117, 23);
 	text-align: center;
@@ -48,36 +48,7 @@
 
 /*------------------------------Education------------------------------*/
 
-.education h2 {
-	display: inline-block;
-}
 
-.grad {
-	display: inline-block;
-	float: right;
-	margin-top: 1em;
-}
-
-.education p {
-	margin: .1em;
-}
-
-i {
-	font-style: italic;
-}
-
-.stat {
-	display: inline-block;
-	padding-top: .1em;
-}
-
-#award{
-	float: right;
-}
-
-.education h3 {
-	margin-bottom: .2em;
-}
 
 
 
