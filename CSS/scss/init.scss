@@ -1,6 +1,7 @@
-// --- Variables ---
-$primary: #5eb1bf;
-$dark-color: #1A3D3E;
+//--- Variables ---
+$primary: #a77517;
+$secondary: #40628d;
+$dark-color: #383838;
 $light: #cdedf6;
 $callout-color: #ef7b45;
 $error-color: #d84727;
@@ -15,3 +16,12 @@ $white: #fff;
 
 // --- Modules ---
 @import 'module/m-navigation';
+@import 'module/m-masthead';
+@import 'module/m-info-section.scss';
+@import 'module/m-footer.scss';
+
+// --- State ---
+
+
+// --- Theme ---
+@import 'themes/aljazari';
