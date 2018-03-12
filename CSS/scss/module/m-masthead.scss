@@ -1,11 +1,11 @@
 .masthead {
   text-align: center;
   padding: 6em 0;
-  background-color: $dark-color;
   background-image: url("../../images/chicago-min.jpg");
   background-position: 33% center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: $dark-color;
   border-bottom: solid 3px $dark-color;
 
   .masthead-intro {

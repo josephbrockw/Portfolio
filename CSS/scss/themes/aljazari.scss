@@ -13,9 +13,21 @@
     color: $secondary;
   }
 
-  P {
+  h4 {
+    color: $dark-color;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  p {
     letter-spacing: .05;
     color: $dark-color;
     margin: 1rem 0;
+  }
+
+  .date {
+    margin-top: .25rem;
+    color: $primary;
+    font-style: italic;
   }
 }

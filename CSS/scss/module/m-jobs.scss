@@ -1,0 +1,55 @@
+.item-listing {
+  padding: 2rem 0;
+
+  ul {
+    li {
+      list-style: square;
+    	list-style-position: inside;
+      margin: .25rem 0;
+    }
+  }
+}
+
+.education {
+  .item-listing {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.job-title-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.volunteer ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  li {
+    padding: .5rem;
+    margin: .5rem 0;
+
+    h4 {
+      color: $secondary;
+    }
+  }
+}
+
+@media only screen and (min-width: 730px) {
+  .education {
+    .item-listing {
+      flex-direction: row;
+      text-align: left;
+
+      div:first-child {
+        margin-right: .5rem;
+      }
+
+      div:last-child {
+        margin-left: .5rem;
+      }
+    }
+  }
+}
